@@ -1,50 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <link rel="stylesheet" type="text/css" href="ResumeSite.css">
-  <title>
-    Xavier C. Gill
-  </title>
-</head>
-<body>
-  <!-- This is my first comment -->
-  <h1>
-    My Resume
-  </h1>
-  <!-- Changed the div id to a class due to invalid duplicates-->
-  <div class='skills'>
-    <h2>
-      Skills
-    </h2>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ResumeSite.css">
+    <title>Xavier C. Gill</title>
+  </head>
+  <body>
+    <h1>Xavier C. Gill</h1>
+    <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, voluptas perspiciatis, natus porro omnis accusamus, rem repellat excepturi ullam possimus animi! Quos minima debitis accusamus atque, facere voluptates porro harum?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eum dolorum commodi dolores, perferendis. Officia, rem laudantium voluptas vel, rerum placeat inventore. Beatae ad reiciendis voluptatum aliquid optio ea, nesciunt!
+      </p>
+    <!-- Created gradient border (lines 18 to 22) -->
+    <div class=skills-box-border-wrap>
+      <div class=skills-box>
+        <h2 class="centered">My Skills</h2>
+      </div>
+    </div>
+    <!-- Set each individual skillset into its own ul tag for styling. Each includes an h3 tag -->
+  <div class="skills-blocks">
+    <section>
+        <h3>Marketing Skills</h3>
+        <ul>
+            <li>skill one</li>
+            <li>skill two</li>
+            <li>skill three</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Data Analytics Skills</h3>
+        <ul>
+          <li>Google Analytics</li>
+          <li>DBMS</li>
+          <li>SQL</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Coding Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+        </ul>
   </div>
-  <div id='marketingheading' class='skills'>
-    <h3>
-      Marketing
-    </h3>
-  </div>
-    <ul>
-      <li>Data Analysis</li>
-      <li>Google Tag Manager</li>
-      <li>Email Marketing</li>
-    </ul>
-  <div class='skills'>
-    <h3>
-      Sales
-    </h3>
-  </div>
-    <ul>
-      <li>telemarketing</li>
-      <li>door to door</li>
-      <li>english</li>
-    </ul>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong> Duis aute irure dolor in reprehenderit </strong> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <a href="google.com" target="_blank">culpa qui officia</a> deserunt mollit anim id est laborum.
-  </p>
-
-  <!-- Table Test -->
-  <!-- Form Test -->  
-</body>
-
-
+    </section>
+    <h2>Employment History</h2>
+    <!-- Testing Tables -->
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Company</th>
+          <th>Supervisor</th>
+        </tr>
+        <tr>
+          <td>Marketing Manager</td>
+          <td>Goldman Sachs</td>
+          <td>Jared Sanderson</td>
+        </tr>
+        <tr>
+          <td>Marketing Coordinator</td>
+          <td>University of Florida</td>
+          <td>Emilia Earnest</td>
+        </tr>
+        <tr>
+          <td>Marketing Intern</td>
+          <td>Chromosome Advertising</td>
+          <td>Ashley Peterson</td>
+        </tr>
+      </table>
+    <h2>Education</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque minus esse architecto sapiente quod aut nam quam nostrum, nulla, nihil est suscipit doloremque consequuntur. Ea ipsa libero perspiciatis velit. Eaque!</p>
+      <!-- Testing Forms -->
+      <form>
+        First Name:
+        <br>
+        <input type="text" name="firstName">
+        <br>
+        Last Name:
+        <br>
+        <input type="text" name="lastName">
+        <br>
+        <input type="submit" value="send me more info">
+      </form>
+  </body>
 </html>
