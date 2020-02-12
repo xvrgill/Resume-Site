@@ -1,3 +1,28 @@
+/* Created global navigation with cta button... will continue styling later*/
+#global-navigation-top {
+  font: 1.2em sans-serif;
+  margin: 20px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 500px;
+}
+
+#global-navigation-top a {
+  margin: 0 10px;
+}
+
+#nav-cta-button {
+  color: white;
+  background-color: red;
+  /* Removes link underline */
+  text-decoration: none;
+  padding: 5px;
+}
+
 div.skills-blocks {
   text-align: center;
 }
